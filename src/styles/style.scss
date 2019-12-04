@@ -1,0 +1,24 @@
+@import 'common/navbar';
+
+.startpage{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.startpage-title{
+  padding-top: 20vh;
+  font-size: 60px;
+}
+.startpage-subtitle{
+  font-size: 40px;
+}
+
+.startpage-intro {
+  font-size: 20px;
+  padding-top: 40px;
+}
+.startpage-author{
+  font-size: 20px;
+  padding-top: 40px;
+}

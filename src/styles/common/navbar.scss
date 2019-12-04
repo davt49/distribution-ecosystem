@@ -1,0 +1,25 @@
+#Navbar-openbtn{
+  display:block;
+  // border: 5px solid rgba(0,0,0,0.5);
+  // border-radius: 50%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#Navbar-closebtn{
+  display: none;
+}
+
+#Navbar{
+  position: fixed;
+  display: none;
+  margin-left: 20px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.Navbar-link{
+  font-size: 16px;
+}
