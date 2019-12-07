@@ -17,7 +17,7 @@ class Conclusion extends React.Component{
 
           <p>Video-on-demand is the next stage of the film and television experience. It presented new possibilities in content viewing that were previously restricted to cable television and film projectors. Innovators are establishing themselves within this new market of opportunities, and they have been influential in challenging existing market structures as well as building new business models within the digital distribution ecosystem. With the widespread popularity of video-on-demand, consumers can more efficiently manage their time and focus by not being restricted to linear mass media or a television screen, and it has all been made possible thanks to the invention of the internet. </p><br/>
 
-          <a className='references' href='./References'>References</a>
+          <a className='nextchapter' href='./References'>References</a>
 
         </div>
       </div>

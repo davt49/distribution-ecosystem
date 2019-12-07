@@ -40,7 +40,7 @@ class Navbar extends React.Component{
           <ul>
             <div className='Navbar-closebtn'><span onClick={this.closeNav}> X </span></div>
             <li className='Navbar-link'><a href='./Intro'>Intro</a></li>
-            <li className='Navbar-link'><a href='#'>Glossary</a></li>
+            <li className='Navbar-link'><a href='./Glossary'>Glossary</a></li>
             <li className='Navbar-link'><a href='./Prepping'>Prepping for the Multi-Platform Release</a></li>
             <li className='Navbar-link'><a href='./Social'>Social Media Mania</a></li>
             <li className='Navbar-link'><a href='./Ultra-Violet'>Ultra-Violet, Piracy and the (Potential Death of) Cinematic Experience</a></li>

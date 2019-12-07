@@ -11,6 +11,7 @@ import Social from './components/essayparts/Social'
 import Ultraviolet from './components/essayparts/Ultra-Violet'
 import Virtual from './components/essayparts/Virtual'
 import Conclusion from './components/essayparts/Conclusion'
+import Glossary from './components/essayparts/Glossary'
 import Navbar from './components/common/Navbar'
 
 class App extends React.Component {
@@ -26,6 +27,7 @@ class App extends React.Component {
             <Route path='/Ultra-Violet' component={Ultraviolet} />
             <Route path='/Virtual' component={Virtual} />
             <Route path='/Conclusion' component={Conclusion} />
+            <Route path='/Glossary' component={Glossary} />
             <Route exact path='/' component={Startpage} />
           </Switch>
         </main>
