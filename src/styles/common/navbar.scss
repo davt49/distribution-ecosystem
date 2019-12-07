@@ -9,7 +9,11 @@
   margin-top: 20px;
 }
 #Navbar-closebtn{
+  position: absolute;
+  top: 0;
+  right: 25px;
   display: none;
+  margin-left: 50px;
 }
 
 #Navbar{

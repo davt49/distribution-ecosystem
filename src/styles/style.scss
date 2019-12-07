@@ -1,4 +1,10 @@
 @import 'common/navbar';
+@import 'essayparts/intro';
+@import 'essayparts/prepping';
+@import 'essayparts/social';
+@import 'essayparts/ultraviolet';
+@import 'essayparts/virtual';
+@import 'essayparts/conclusion';
 
 .startpage{
   display: flex;
@@ -21,4 +27,30 @@
 .startpage-author{
   font-size: 20px;
   padding-top: 40px;
+}
+.startpage-start{
+  padding-top: 25px;
+}
+.nextchapter{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+//sections
+
+.section-title{
+  font-size: 50px;
+  padding-bottom: 5vh;
+}
+
+//text
+.text{
+  font-size: 15px;
+}
+
+//conclusion
+.conclusion-title{
+  font-weight: bold;
 }

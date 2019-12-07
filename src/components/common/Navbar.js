@@ -17,7 +17,7 @@ class Navbar extends React.Component{
 
   openNav(e){
     e.preventDefault()
-    document.getElementById('Navbar').style.width = '20vw'
+    document.getElementById('Navbar').style.width = '18vw'
     document.getElementById('Navbar').style.display = 'block'
     document.getElementById('Navbar-openbtn').style.display = 'none'
 
@@ -39,13 +39,14 @@ class Navbar extends React.Component{
         <div id='Navbar'>
           <ul>
             <div className='Navbar-closebtn'><span onClick={this.closeNav}> X </span></div>
-            <li className='Navbar-link'><a href='#'>Intro</a></li>
+            <li className='Navbar-link'><a href='./Intro'>Intro</a></li>
             <li className='Navbar-link'><a href='#'>Glossary</a></li>
-            <li className='Navbar-link'><a href='#'>Prepping for the Multi-Platform Release</a></li>
-            <li className='Navbar-link'><a href='#'>Social Media Mania</a></li>
-            <li className='Navbar-link'><a href='#'>Ultra-Violet, Piracy and the (Potential Death of) Cinematic Experience</a></li>
-            <li className='Navbar-link'><a href='#'>A Virtual Future</a></li>
-            <li className='Navbar-link'><a href='#'>Conclusion: The Next Stage of the Film and Television Experience</a></li>
+            <li className='Navbar-link'><a href='./Prepping'>Prepping for the Multi-Platform Release</a></li>
+            <li className='Navbar-link'><a href='./Social'>Social Media Mania</a></li>
+            <li className='Navbar-link'><a href='./Ultra-Violet'>Ultra-Violet, Piracy and the (Potential Death of) Cinematic Experience</a></li>
+            <li className='Navbar-link'><a href='./Virtual'>A Virtual Future</a></li>
+            <li className='Navbar-link'><a href='./Conclusion'>Conclusion: The Next Stage of the Film and Television Experience</a></li>
+            <li className='Navbar-link'><a href='/'>Back to Start</a></li>
           </ul>
         </div>
         <div></div>
