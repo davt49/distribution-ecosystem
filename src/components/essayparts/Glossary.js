@@ -6,6 +6,7 @@ class Glossary extends React.Component{
     super()
 
     this.state = { data: null}
+
   }
 
   getData(){
@@ -18,11 +19,12 @@ class Glossary extends React.Component{
     this.getData()
   }
 
+
   render(){
     return(
-      <div>
+      <div className='glossary'>
         {this.state.data && this.state.data.map(glossary => {
-          return <div className='glossary-item' key={glossary._id}>
+          return <div className='glossary-item' key={glossary._id} >
             <div className='glossary-title'>{glossary.name}</div>
             <div className='glossary-info'>{glossary.info}</div>
           </div>

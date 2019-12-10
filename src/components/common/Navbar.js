@@ -34,11 +34,12 @@ class Navbar extends React.Component{
     return(
       <div>
         <div id='Navbar-openbtn'>
-          <span onClick={this.openNav}>Open</span>
+          <span onClick={this.openNav}>Navigate</span>
         </div>
         <div id='Navbar'>
           <ul>
             <div className='Navbar-closebtn'><span onClick={this.closeNav}> X </span></div>
+            <li className='Navbar-link'><a href='/'>Startpage</a></li>
             <li className='Navbar-link'><a href='./Intro'>Intro</a></li>
             <li className='Navbar-link'><a href='./Glossary'>Glossary</a></li>
             <li className='Navbar-link'><a href='./Prepping'>Prepping for the Multi-Platform Release</a></li>
@@ -46,7 +47,7 @@ class Navbar extends React.Component{
             <li className='Navbar-link'><a href='./Ultra-Violet'>Ultra-Violet, Piracy and the (Potential Death of) Cinematic Experience</a></li>
             <li className='Navbar-link'><a href='./Virtual'>A Virtual Future</a></li>
             <li className='Navbar-link'><a href='./Conclusion'>Conclusion: The Next Stage of the Film and Television Experience</a></li>
-            <li className='Navbar-link'><a href='/'>Back to Start</a></li>
+            <li className='Navbar-link'><a href='./References'>Bibliography</a></li>
           </ul>
         </div>
         <div></div>
