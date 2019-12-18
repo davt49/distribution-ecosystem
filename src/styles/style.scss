@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada&display=swap');
+// font-family: 'Montserrat Subrayada', sans-serif;
+
 @import 'common/navbar';
+@import 'common/footer';
 @import 'essayparts/intro';
 @import 'essayparts/prepping';
 @import 'essayparts/social';
@@ -8,17 +12,29 @@
 @import 'essayparts/glossary';
 @import 'essayparts/references';
 
+
+
+
 .startpage{
   display: flex;
   justify-content: center;
   text-align: center;
+  height: 99vh;
+  img {
+    width: 20vw;
+    height: auto;
+  }
 }
 
+
+
 .startpage-title{
+
   padding-top: 20vh;
   font-size: 60px;
 }
 .startpage-subtitle{
+
   font-size: 40px;
 }
 
@@ -31,6 +47,7 @@
   padding-top: 40px;
 }
 .startpage-start{
+  font-size: 30px;
   padding-top: 25px;
 }
 .nextchapter{

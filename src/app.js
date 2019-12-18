@@ -14,6 +14,7 @@ import Conclusion from './components/essayparts/Conclusion'
 import Glossary from './components/essayparts/Glossary'
 import References from './components/essayparts/References'
 import Navbar from './components/common/Navbar'
+import Footer from './components/common/Footer'
 
 class App extends React.Component {
   render(){
@@ -32,6 +33,7 @@ class App extends React.Component {
             <Route path='/References' component={References} />
             <Route exact path='/' component={Startpage} />
           </Switch>
+          <Footer/>
         </main>
       </BrowserRouter>
     )
