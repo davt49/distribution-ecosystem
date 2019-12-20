@@ -16,7 +16,7 @@ class Startpage extends React.Component {
           <div className='startpage-intro'>An Analysis of the Marketplace for Film and Television within the World of Video on Demand. (Distinction)</div>
           <div className='startpage-author'>Written by David Tsui at Royal Holloway, MA Producing Film and TV</div>
           <div className='startpage-start'>
-            <span><a href='./Intro'>Start</a></span>
+           <a href='./Intro'>Start</a>
           </div>
           <div className='startpage-intro'>featuring interviews from </div>
           <img src='../../assets/pics/lionsgate.png'/><img src='../../assets/pics/mubi.png'></img>

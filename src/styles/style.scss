@@ -49,6 +49,13 @@
 .startpage-start{
   font-size: 30px;
   padding-top: 25px;
+  a{
+    // color: goldenrod;
+  }
+  a:hover{
+    text-decoration: none;
+    color:gold;
+  }
 }
 .nextchapter{
   padding-top: 40px;
