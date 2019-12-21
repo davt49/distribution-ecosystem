@@ -14,7 +14,7 @@ class Prepping extends React.Component{
         <div className='text'>
 
           <img src='../../assets/pics/prepping/snowpiercer.jpeg'/>
-          <img src='../../assets/pics/prepping/okja.jpg'/>
+          <img src='../../assets/pics/prepping/Okja.jpg'/>
 
           <p>When the Weinstein Company pondered whether to cut twenty minutes off Bong Joon-Ho’s Snowpiercer in 2013, they backed off after a wave of critical disapproval. The company had intended to make edits to the film that fit into their views and policies on film duration and tempo (Vulture 2013). The Weinsteins are notorious for making major changes in post production to both the edit and the soundtrack, and the developments had infuriated Bong (Guardian 2013). So, It is not surprising that for his next film, Okja, Bong decided to work with Netflix, a deep-pocketed patron valued for their reputation as non-intrusive financiers. Netflix has been heavily spending on original content and offering a ‘hands off the creatives’ policy in order to attract big names to their brand, and they have succeeded in this regard with recent productions such as Mindhunter with David Fincher, The Ballad of Buster Scruggs with Coen Brothers, as well as Godless with Steven Soderbergh (Netflix 2017).</p><br/>
 
