@@ -13,11 +13,15 @@ const app = express()
 
 mongoose.connect(dbURI, { useNewUrlParser: true }, () => console.log(dbURI))
 
+app.use(express.static(`${__dirname}/dist`))
+
 app.use(bodyParser.json())
 
 app.use('/api', router)
 
 app.use(logger)
+
+app.get('/*', (req, res) => res.sendFile(`${__dirname}/dist/index.html`))
 
 app.listen(port, () => console.log(`up and running on PORT ${port}`))
 
