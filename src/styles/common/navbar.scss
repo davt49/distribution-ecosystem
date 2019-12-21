@@ -28,8 +28,14 @@
     font-size: 36px;
     margin-left: 50px;
     cursor: pointer;
+    padding:0;
+    color: rgb(190, 190, 190);
     
   }
+  .Navbar-closebtn:hover{
+    color: rgb(34, 34, 255);
+  }
+
 }
 
 .Navbar-links a {
@@ -37,11 +43,12 @@
   font-size: 16px;
   text-decoration: none;
   display: block;
-  color: rgb(190, 190, 190);
+  color: rgb(156, 156, 156);
   width: 18vw;
   transition: 0.3s;
 
 }
 .Navbar-links a:hover{
   text-decoration: none;
+  color: rgb(34, 34, 255);
 }
