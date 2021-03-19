@@ -1,13 +1,30 @@
 # Distribution Ecosystem
 
-My Masters Degree Dissertation hopefully cemented in Webpage form.
+## Team
 
 Solo Project
 
 ## Technologies
 
-Node.js
+- React.js
 
-React.js
+- SCSS
 
-SCSS
+- Node.js
+
+- Express.js
+
+- Webpack
+
+- Yarn
+
+- Babel
+
+- Git/Github
+
+- Heroku
+
+
+## Theme
+
+My Masters Degree Dissertation from Royal Holloway in 2017. hopefully cemented in Webpage form.
