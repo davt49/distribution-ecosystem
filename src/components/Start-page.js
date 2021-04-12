@@ -12,9 +12,9 @@ class Startpage extends React.Component {
       <div className='startpage'>
         <header>
           <div className='startpage-title'>Digital Distribution Ecosystem</div>
-          <div className='startpage-subtitle'>circa August 2017</div>
-          <div className='startpage-intro'>An Analysis of the Marketplace for Film and Television within the World of Video on Demand. (Distinction)</div>
-          <div className='startpage-author'>Written by David Tsui at Royal Holloway, MA Producing Film and TV</div>
+          <div className='startpage-subtitle'></div>
+          <div className='startpage-intro'>Written by David Tsui, August 2017 (Who is now a developer)</div>
+          <div className='startpage-author'>This is a small React.js project to turn an old essay of mine into a website!</div>
           <div className='startpage-start'>
            <a href='./Intro'>Start</a>
           </div>

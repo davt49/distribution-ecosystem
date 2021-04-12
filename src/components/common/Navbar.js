@@ -33,7 +33,7 @@ class Navbar extends React.Component{
           </div>
         <div className='Navbar-links'>
           <a href='/'>Startpage</a>
-          <a href='./Glossary'>Glossary</a>
+          {/* <a href='./Glossary'>Glossary</a> */}
           <a href='./Intro'>Intro</a>
           <a href='./Prepping'>Prepping for the Multi-Platform Release</a>
           <a href='./Social'>Social Media Mania</a>
